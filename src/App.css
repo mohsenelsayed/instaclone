@@ -1,0 +1,148 @@
+body{
+  background-color: #FAFAFA;
+  margin-top:60px ;
+}
+.container{
+  width: 900px;
+  margin: auto;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+input:focus{
+  outline: 0;
+}
+
+.navbar{
+  background-color: white;
+  height: 60px;
+  width: 100vw;
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+}
+.navbar-content{
+  width: 975px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  margin-right: 150px;
+  cursor: pointer;
+}
+.search-input{
+  box-sizing: border-box;
+  width: 275px;
+  padding: 10px 50px 10px 25px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #EFEFEF;
+  color: #797878;
+}
+.search-input:focus{
+  padding-left: 10px;
+}
+.search{
+  position: relative;
+}
+.search-icon{
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
+.nav-links{
+  display: flex;
+  align-items: center;
+}
+.nav-links > *{
+  margin: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+.home{
+  display: flex;
+  justify-content: space-between;
+}
+.feed{
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  margin-top: 10px;
+}
+.post-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 90%;
+  height: 780px;
+  margin: 5px 0;
+  background-color: white;
+  border: 1px solid #DBDBDB;
+  border-radius: 10px;
+}
+.post-header{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.post-header .user-pic{
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.post-header > .text{
+  display: flex;
+  flex-direction: column;
+}
+.post-header .user-name{
+  font-weight: bold;
+}
+.post-header .post-location{
+  font-weight: light;
+  font-size: 13px;
+}
+.post-card .post-pic{
+  width: 100%;
+  max-height: 600px;
+}
+.post-card .card-details{
+  padding: 5px;
+}
+.post-card .reacts{
+  display: flex;
+}
+.post-card .left{
+  flex: 1;
+}
+.post-card .reacts svg{
+  cursor: pointer;
+  font-size: 25px;
+  margin: 0 5px;
+}
+.post-card .post-time{
+  font-weight: light;
+  font-size: 13px;
+  color: #979797;
+}
+.post-card .comment-input{
+  flex: 1;
+  padding: 10px;
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #DBDBDB;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.sidebar{
+  flex: 2;
+}
